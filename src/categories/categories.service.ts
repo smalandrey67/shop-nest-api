@@ -1,4 +1,4 @@
-import { Injectable, UseGuards } from "@nestjs/common";
+import { Injectable } from "@nestjs/common";
 import { ALL_CATEGORIES_MOCK } from "./categories.data";
 
 @Injectable()
