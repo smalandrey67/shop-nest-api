@@ -724,7 +724,7 @@ export const ALL_PRODUCTS_MOCK = [
   },
   {
     id: 42,
-    title: "Elegant Patent Leather Peep-Toe Pumps with Gold-Tone Heel",
+    title: "Elegant Patent Leather Peep-Toe",
     price: 53,
     description:
       "Step into sophistication with these chic peep-toe pumps, showcasing a lustrous patent leather finish and an eye-catching gold-tone block heel. The ornate buckle detail adds a touch of glamour, perfect for elevating your evening attire or complementing a polished daytime look.",

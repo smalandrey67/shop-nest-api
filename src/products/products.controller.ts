@@ -1,8 +1,15 @@
-import { Controller, Get, Param, ParseIntPipe, Query } from "@nestjs/common";
+import {
+  Controller,
+  Get,
+  Param,
+  ParseIntPipe,
+  UseGuards,
+} from "@nestjs/common";
 import { ProductsService } from "./products.service";
-import { log } from "console";
+import { KeyGuard } from "./guards/products.guard";
 
 @Controller("products")
+@UseGuards(KeyGuard)
 export class ProductsController {
   constructor(private readonly productsService: ProductsService) {}
 
