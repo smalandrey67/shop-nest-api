@@ -74,6 +74,7 @@ export const ALL_PRODUCTS_MOCK = [
     images: [
       "https://i.imgur.com/cSytoSD.jpeg",
       "https://i.imgur.com/WwKucXb.jpeg",
+      "https://i.imgur.com/WwKucXb.jpeg",
     ],
     indicator: "top sales",
     creationAt: "2024-02-25T03:25:16.000Z",
