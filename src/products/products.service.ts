@@ -23,7 +23,7 @@ export class ProductsService {
     return ALL_PRODUCTS_MOCK.find((product) => product.id === id);
   }
 
-  getProductsByCategory(category: string, sort: "asc" | "desc" = "asc") {
+  getProductsByCategory(category: string, sort: "asc" | "desc") {
     const productsByCategory = ALL_PRODUCTS_MOCK.filter(
       (product) =>
         product.category.name.toLowerCase() === category.toLowerCase(),
