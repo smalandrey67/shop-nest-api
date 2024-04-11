@@ -15,8 +15,6 @@ export class KeyGuard implements CanActivate {
 
     const { authorization }: { authorization: string } = request.headers;
 
-    console.log(authorization);
-
     if (!authorization || authorization !== "123") {
       throw new UnauthorizedException("Please provide token");
     }
